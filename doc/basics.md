@@ -2,6 +2,16 @@
 
 #### [prev](./concepts.md) | [home](./welcome.md)  | [next](./connectivity.md)
 
+## Network Planning Questions
+When planning to implement virtual networks, you need to consider the following:
+
+- Ensure non-overlapping address spaces. Make sure your VNet address space (CIDR block) does not overlap with your organization's other network ranges.
+- Is any security isolation required?
+- Do you need to mitigate any IP addressing limitations?
+- Will there be connections between Azure VNets and on-premises networks?
+- Is there any isolation required for administrative purposes?
+- Are you using any Azure services that create their own VNets?
+
 ## Best practices
 
 As you build your network in Azure, it is important to keep in mind the following universal design principles:
